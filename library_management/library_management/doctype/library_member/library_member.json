@@ -9,7 +9,8 @@
   "first_name",
   "last_name",
   "email",
-  "phone"
+  "phone",
+  "plan"
  ],
  "fields": [
   {
@@ -36,12 +37,18 @@
    "fieldtype": "Data",
    "label": "Phone",
    "reqd": 1
+  },
+  {
+   "fieldname": "plan",
+   "fieldtype": "Link",
+   "label": "Plan",
+   "options": "Library Member"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-02-09 16:57:18.882987",
+ "modified": "2026-02-12 17:19:53.527582",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Member",
