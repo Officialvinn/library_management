@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format: MEM-#####",
+ "autoname": "format: MEM-(#####)",
  "creation": "2026-02-09 16:21:35.099260",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -10,7 +10,8 @@
   "last_name",
   "email",
   "phone",
-  "plan"
+  "plan",
+  "full_name"
  ],
  "fields": [
   {
@@ -43,12 +44,17 @@
    "fieldtype": "Link",
    "label": "Plan",
    "options": "Library Member"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-02-12 17:19:53.527582",
+ "modified": "2026-02-17 17:28:25.018934",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Member",

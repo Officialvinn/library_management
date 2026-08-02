@@ -6,3 +6,15 @@
 
 // 	},
 // });
+
+
+// frappe.ui.form.on("Loan", {
+//     refresh(frm) {
+//         frm.set_query("book", function () {
+//             return {
+//                 filters: {status: "Available"}
+//             }
+//         })
+//     }
+
+// })

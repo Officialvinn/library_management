@@ -1,0 +1,40 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-02-16 16:41:09.923260",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "author_name",
+  "bio"
+ ],
+ "fields": [
+  {
+   "fieldname": "author_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Author Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "bio",
+   "fieldtype": "Long Text",
+   "label": "Bio"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-02-16 16:46:51.927077",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Author Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

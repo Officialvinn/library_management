@@ -10,7 +10,8 @@
   "isbn",
   "status",
   "publisher",
-  "publication_date"
+  "publication_date",
+  "authors"
  ],
  "fields": [
   {
@@ -38,12 +39,18 @@
    "fieldname": "publication_date",
    "fieldtype": "Date",
    "label": "Publication Date "
+  },
+  {
+   "fieldname": "authors",
+   "fieldtype": "Table",
+   "label": "Authors",
+   "options": "Author Detail"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-02-09 16:51:34.103839",
+ "modified": "2026-02-16 16:45:02.179997",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Book",

@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:LOAN-#####",
+ "autoname": "format:LOAN-{#####}",
  "creation": "2026-02-09 16:31:10.657994",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -9,9 +9,11 @@
   "section_break_mi4r",
   "amended_from",
   "applicant",
+  "applicant_name",
   "book",
   "transaction_date",
-  "status"
+  "status",
+  "return_date"
  ],
  "fields": [
   {
@@ -50,14 +52,25 @@
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "Draft\nReturned\nOverdue"
+   "options": "Available\nReturned\nOverdue"
+  },
+  {
+   "fetch_from": "applicant.full_name",
+   "fieldname": "applicant_name",
+   "fieldtype": "Data",
+   "label": "Applicant Name"
+  },
+  {
+   "fieldname": "return_date",
+   "fieldtype": "Date",
+   "label": "Return Date"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-02-11 17:15:05.647043",
+ "modified": "2026-02-19 16:30:16.381550",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Loan",
